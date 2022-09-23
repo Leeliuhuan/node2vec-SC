@@ -1,11 +1,11 @@
-graph文件夹----edgelist格式文件
-emd文件夹-----produce_emd.py的输出
-SCdata文件夹-----进行仿真实验的数据集
+graph folder ----edgelist file
+emd folder -----the output of produce_emd.py
+SCdata folder ----- data set for simulation experiments
 
-运行步骤：
-1，将待处理数据放入graph文件夹中，如dolphins.edgelist；
-2，将produce_emd.py以终端形式运行，如在终端处键入
-       “python3 main.py --input graph/dolphins.edgelist --output emb/dolphins.emd --p 1 --q 1 --dimensions 128”
-     运行结果自动保存到emb文件夹中，文件以.emd扩展名形式保存；
-3， 将emd文件以.txt形式保存在SCdata/input中
-4，运行main.py （注意代码的数据文件路径）
+Running steps.
+1, put the data to be processed into the graph folder, such as dolphins.edgelist.
+2, run produce_emd.py through a terminal, e.g. for example
+       "python3 main.py --input graph/dolphins.edgelist --output emb/dolphins.emd --p 1 --q 1 --dimensions 128"
+   The results of the run will be automatically saved to the emd folder with the file extension .emd.
+3, save the emd file in .txt format to SCdata/input
+4, run main.py (note the data file path of the code)
