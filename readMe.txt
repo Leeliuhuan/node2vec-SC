@@ -1,11 +1,11 @@
-graphÎÄ¼ş¼Ğ----edgelist¸ñÊ½ÎÄ¼ş
-embÎÄ¼ş¼Ğ-----produce_emd.pyµÄÊä³ö
-SCdataÎÄ¼ş¼Ğ-----½øĞĞ·ÂÕæÊµÑéµÄÊı¾İ¼¯
+graphæ–‡ä»¶å¤¹----edgelistæ ¼å¼æ–‡ä»¶
+emdæ–‡ä»¶å¤¹-----produce_emd.pyçš„è¾“å‡º
+SCdataæ–‡ä»¶å¤¹-----è¿›è¡Œä»¿çœŸå®éªŒçš„æ•°æ®é›†
 
-ÔËĞĞ²½Öè£º
-1£¬½«´ı´¦ÀíÊı¾İ·ÅÈëgraphÎÄ¼ş¼ĞÖĞ£¬Èçdolphins.edgelist£»
-2£¬½«produce_emd.pyÒÔÖÕ¶ËĞÎÊ½ÔËĞĞ£¬ÈçÔÚÖÕ¶Ë´¦¼üÈë
-       ¡°python3 main.py --input graph/dolphins.edgelist --output emb/dolphins.emd --p 1 --q 1 --dimensions 128¡±
-     ÔËĞĞ½á¹û×Ô¶¯±£´æµ½embÎÄ¼ş¼ĞÖĞ£¬ÎÄ¼şÒÔ.emdÀ©Õ¹ÃûĞÎÊ½±£´æ£»
-3£¬ ½«emdÎÄ¼şÒÔ.txtĞÎÊ½±£´æÔÚSCdata/inputÖĞ
-4£¬ÔËĞĞmain.py £¨×¢Òâ´úÂëµÄÊı¾İÎÄ¼şÂ·¾¶£©
+è¿è¡Œæ­¥éª¤ï¼š
+1ï¼Œå°†å¾…å¤„ç†æ•°æ®æ”¾å…¥graphæ–‡ä»¶å¤¹ä¸­ï¼Œå¦‚dolphins.edgelistï¼›
+2ï¼Œå°†produce_emd.pyä»¥ç»ˆç«¯å½¢å¼è¿è¡Œï¼Œå¦‚åœ¨ç»ˆç«¯å¤„é”®å…¥
+       â€œpython3 main.py --input graph/dolphins.edgelist --output emb/dolphins.emd --p 1 --q 1 --dimensions 128â€
+     è¿è¡Œç»“æœè‡ªåŠ¨ä¿å­˜åˆ°embæ–‡ä»¶å¤¹ä¸­ï¼Œæ–‡ä»¶ä»¥.emdæ‰©å±•åå½¢å¼ä¿å­˜ï¼›
+3ï¼Œ å°†emdæ–‡ä»¶ä»¥.txtå½¢å¼ä¿å­˜åœ¨SCdata/inputä¸­
+4ï¼Œè¿è¡Œmain.py ï¼ˆæ³¨æ„ä»£ç çš„æ•°æ®æ–‡ä»¶è·¯å¾„ï¼‰
